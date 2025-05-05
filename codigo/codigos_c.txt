@@ -1,0 +1,57 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+// Estrutura para personagens
+struct Personagem {
+    string nome;
+    string funcao;
+    string sprite;
+    string habilidade;
+};
+
+// Função para mostrar personagem
+void mostrarPersonagem(const Personagem& p) {
+    cout << "\n--- " << p.nome << " ---\n";
+    cout << p.sprite << endl;
+    cout << "Função: " << p.funcao << endl;
+    cout << "Habilidade especial: " << p.habilidade << "\n";
+}
+
+int main() {
+    vector<Personagem> personagens = {
+        {
+            "Capitão Rafael Torres",
+            "Líder da resistência",
+            R"( 
+  /^\
+ /o o\ 
+ | ^ | 
+ |[_]| 
+/|   |\
+ |___| 
+ /   \ )",
+            "Instinto de Comando"
+        },
+        {
+            "Agente Yuki Takeda",
+            "Espiã e hacker",
+            R"(
+   .-.
+  |o o|
+  | ^ |
+  |[_]|
+ /|_|\ \
+  / \   )",
+            "Vírus Fantasma"
+        },
+        {
+            "Miguel 'Barril' Duarte",
+            "Explosivista",
+            R"(
+  _____
+ |x x x|
+ |O_O_|
+ | |
