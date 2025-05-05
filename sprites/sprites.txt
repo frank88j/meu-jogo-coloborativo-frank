@@ -1,0 +1,16 @@
+  /^\
+ /o o\   <- Capacete com visor quebrado
+ | ^ |   <- Barba e cicatriz
+ |[_]|   <- Colete tático
+/|   |\
+ |___|   <- Calças e botas militares
+ /   \
+
+
+
+   .-.
+  |o o|   <- Máscara furtiva
+  | ^ |   <- Olhar focado
+  |[_]|   <- Roupa preta furtiva
+ /|_|\ \
+  / \     <- Equipamento leve e ágil
